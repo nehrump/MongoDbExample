@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: mongoService
+      host: localhost
+      port: 27017
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: test-application
+
